@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Youtube thumbnail downloader</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <div class="card">
+      <div class="head">
+        <h1>Get Youtube Thumbnail</h1>
+      </div>
+      <div class="url">
+        <input type="text" name="url" autocomplete="off" id="inp" placeholder="https://www.youtube.com/watch?v=pWTqGN3tZ6U">
+      </div>
+      <div class="thumbnail">
+        <img src="https://img.youtube.com/vi/pWTqGN3tZ6U/maxresdefault.jpg" id="img" alt="Thumnail">
+      </div>
+      <div class="download-btn">
+        <button type="button" id="btn" name="button">Get Thumbnail</button>
+        <a id="dwn" href="https://img.youtube.com/vi/pWTqGN3tZ6U/maxresdefault.jpg" download>
+          <button class="dwn-btn" type="button"name="button">Download Thumbnail</button>
+        </a>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
